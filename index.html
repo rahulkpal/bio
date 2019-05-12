@@ -2,15 +2,177 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Montserrat+Alternates|Questrial" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+
+	<style type="text/css">
+
+/*background color*/
+	.main {
+		background-color: #E0EBE8;
+	}
+
+/*navigation links*/
+
+	.links {
+		font-family: 'Montserrat Alternates', sans-serif;
+	}
+
+/*first row*/
+
+	.first {
+		/*padding-top: 4%;*/
+	}
+
+	/*intermediate*/
+
+	.intermediate {
+		margin-top: 2%;
+	}
+
+	.additionwrap {
+		text-align: center;
+		padding-top: 1%;
+	}
+
+	/*second row*/
+
+	.secondrow {
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+
+	.second {
+		background-color: white;
+		margin-top: 2%;
+		box-shadow: 0px 0px 10px 2px #b2bec3;
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+
+/*main content in first row*/
+
+	.big-content {
+		padding-left: 4%;
+		text-align: right;
+	}
+
+	.firfon {
+		font-family: 'Questrial', sans-serif;
+	}
+
+	.secfon {
+		font-family: 'Bad Script', cursive;
+	}
+
+/*profile pic*/
+
+	.profile {
+		max-width: 50%;
+		height: auto;
+		border-radius: 175px;
+	}
+
+/*project head*/
+
+	/*.projecthead {
+		text-align: center;
+	}*/
+
+/*project content*/
+
+	.projectcon {
+		text-align: center;
+		font-size: 25px;
+		font-family: 'Questrial', sans-serif;
+	}
+
+	.projectmini {
+		padding: 0 15% 0 15%;
+	}
+
+/*icon style*/
+
+	.icon {
+		text-align: center;
+		color: #3498db;
+	}
+	.icon:hover {
+		text-align: center;
+		color: #0984e3;
+	}
+
+/*third row*/
+
+	.third {
+		margin-top: 2%;
+		margin-bottom: 2%;
+		padding-bottom: 1%;
+	}
+
+	.thirdrow {
+		padding-top: 1%;
+		/*padding-bottom: 1%;*/
+	}
+
+	/*mute text*/
+
+	.mutetext {
+		font-size: 20px;
+	}
+
+	.company:hover {
+		box-shadow: 0px 0px 10px 1px #b2bec3;
+	}
+
+	.head {
+		color: #0984e3;
+		font-family: 'Questrial', sans-serif;
+	}
+
+	.but {
+		background-color: #0984e3;
+	}
+
+	.starfill{
+		color: #0984e3;
+	}
+
+	li {
+		font-family: 'Montserrat Alternates', sans-serif;
+	}
+
+	@media screen and (max-width: 991px) {
+	  .big-content{
+	  	text-align: center;
+	  }
+
+	  .profile {
+		max-width: 35%;
+		height: auto;
+		border-radius: 175px;
+		display: block;
+	    margin: 0 auto;
+	  }
+
+	  .projectmini {
+	  	padding: 0 15% 3% 15%;
+	  }
+
+	  .company {
+	  	margin-bottom: 2%;
+	  }
+
+	}
+
+	</style>
 	
 
     <title>Rahul Pal's bio</title>
@@ -33,7 +195,7 @@
 		        <a class="nav-link" href="#experience">experience</a>
 		      </li>
 		      <li class="links nav-item">
-		        <a class="nav-link" href="#">contact</a>
+		        <a class="nav-link" href="#contact">contact</a>
 		      </li>
 		    </ul>
 		  </div>
@@ -44,8 +206,8 @@
 		<div class="first row">
 			<div class="col-lg-7">
 				<div class="big-content">
-				  <h1 class="display-3"><small class="mutetext text-muted">I am </small>Rahul Kumar Pal</h1>
-				  <h1 class="display-4"><small class="mutetext text-muted">a </small>Full Stack Web Developer</h1>
+				  <h1 class="display-4"><small class="mutetext text-muted">I am </small><span class="firfon">Rahul Kumar Pal,</span></h1>
+				  <h2 class="display-4"><small class="mutetext text-muted">a </small><span class="secfon"> Full Stack Web Developer.</span></h2>
 				</div>
 			</div>
 			<div class="col-lg-5">
@@ -58,13 +220,16 @@
 			<div class="col-12">
 				<hr>
 				<div class="additionwrap">
-					<h3 class=""><small class="additional mutetext text-muted">I have experience in development using </small>LAMP <small class="additional mutetext text-muted">and </small>MEAN <small class="additional mutetext text-muted">stack.</small></h3>
+					<h3 class=""><small class="additional mutetext text-muted">I create</small></h3>
+					<h3 class=""><span class="firfon">attractive </span><small class="additional mutetext text-muted">, </small><span class="firfon">dynamic </span><small class="additional mutetext text-muted">and </small><span class="firfon">scalable </span><small class="additional mutetext text-muted">websites</small></h3>
+					<h3 class=""><small class="additional mutetext text-muted">using </small><span class="secfon">LAMP </span><small class="additional mutetext text-muted">and </small><span class="secfon">MEAN </span><small class="additional mutetext text-muted">stack.</small></h3>
 				</div>
 			</div>
 		</div>
-		<p class="additionwrap">I am profecient with these</p>
+		<br>
+		<h3 class="additionwrap text-muted"><small>I use</small></h3>
 		<div class="row">
-			<div class="col-lg-4">
+			<div class="col-lg-4 col-md-6">
 				<ul class="list-group">
 				  <li class="list-group-item d-flex justify-content-between align-items-center" style="border: none; background-color: #E0EBE8;">
 				    HTML
@@ -108,7 +273,7 @@
 				  </li>
 				</ul>
 			</div>
-			<div class="col-lg-4">
+			<div class="col-lg-4 col-md-6">
 				<ul class="list-group">
 				  <li class="list-group-item d-flex justify-content-between align-items-center" style="border: none; background-color: #E0EBE8;">
 				    jQuery
@@ -141,7 +306,7 @@
 					</span>
 				  </li>
 				  <li class="list-group-item d-flex justify-content-between align-items-center" style="border: none; background-color: #E0EBE8;">
-				    nodeJS/Express
+				    nodeJS
 				    <span class="badge badge-pill">
 					    <i class="starfill fas fa-star"></i>
 					    <i class="starfill fas fa-star"></i>
@@ -152,7 +317,7 @@
 				  </li>
 				</ul>
 			</div>
-			<div class="col-lg-4">
+			<div class="col-lg-4 col-md-6">
 				<ul class="list-group">
 				  <li class="list-group-item d-flex justify-content-between align-items-center" style="border: none; background-color: #E0EBE8;">
 				    MySQL
@@ -190,7 +355,7 @@
 					    <i class="starfill fas fa-star"></i>
 					    <i class="starfill fas fa-star"></i>
 					    <i class="starfill fas fa-star"></i>
-					    <i class="starfill fas fa-star"></i>
+					    <i class="far fa-star"></i>
 					    <i class="far fa-star"></i>
 					</span>
 				  </li>
@@ -200,7 +365,7 @@
 		<br>
 	</div>
 	<div class="second container-fluid" id="projects">
-		<p class="projecthead">Projects I have worked on</p>
+		<h3 class="additionwrap text-muted"><small>My work</small></h3>
 		<div class="secondrow row">
 			<div class="icon col-lg-4" onmouseover="this.style.cursor = 'pointer';" onclick="window.open(
   'https://obscure-anchorage-51831.herokuapp.com/','_blank');">
@@ -208,42 +373,70 @@
 				<h6 class="projectcon">Weather web app</h6>
 				<small id="" class="projectmini form-text text-muted">Coded in <b>JavaScript</b>, this app uses two API's: <b>LocationIQ</b> and <b>Dark sky</b> co-working to display the <b>live weather</b> of the location given as input.</small>
 			</div>
-			<div class="icon col-lg-4" onmouseover="this.style.cursor = 'pointer';">
+			<div class="icon col-lg-4" onmouseover="this.style.cursor = 'pointer';" onclick="window.open(
+  'wip.html','_blank');">
 				<i class="fas fa-book fa-3x"></i>
 				<h6 class="projectcon">Knowledge Management System</h6>
 				<small id="" class="projectmini form-text text-muted">Also known as Knowledge Base, this was developed with <b>LAMP</b> stack to handle the content of <b>Operations</b> process of an organisation along with features like regular <b>process updates</b>, quizes integrated with updates, <b>FAQs</b>, <b>search option</b>, <b>notifications</b>, supervisors with content moderators privilages.</small>
 			</div>
-			<div class="icon col-lg-4" onmouseover="this.style.cursor = 'pointer';">
+			<div class="icon col-lg-4" onmouseover="this.style.cursor = 'pointer';" onclick="window.open(
+  'wip.html','_blank');">
 				<i class="fas fa-dice-five fa-3x"></i>
 				<h6 class="projectcon">Dice game</h6>
-				<small id="" class="projectmini form-text text-muted"><b>JavaScript</b> forms the base of this game development for a fun 1v1 dice rolling game on the same device.</small>
+				<small id="" class="projectmini form-text text-muted"><b>JavaScript</b> forms the base of this for a fun 1v1 dice rolling game on the same device.</small>
 			</div>
 		</div>
 	</div>
 	<div class="third container" id="experience">
-		<p class="projecthead">Companies I have worked with</p>
+		<h3 class="additionwrap text-muted"><small>I have worked with</small></h3>
 		<div class="thirdrow row">
 			<div class="col-lg-6">
 			    <div class="company card">
 			      <div class="card-body">
-			        <h5 class="card-title">Swiggy</h5>
-			        <p class="card-text">Designation: Full Stack Trainee Developer</p>
-			        <p class="card-text">Role: Inhouse website Development & deployment, optimisation & maintenance, server administraion and monitoring</p>
-			        <p class="card-text">Since: December, 2017</p>
-			        <a href="#" class="btn btn-primary">More</a>
+			        <h4 class="card-title head">Swiggy</h4>
+			        <p class="card-text firfon"><span class="text-muted">Designation: </span>Full Stack Trainee Developer</p>
+			        <p class="card-text firfon"><span class="text-muted">Role: </span>Inhouse website Development & deployment, optimisation & maintenance, server administraion and monitoring</p>
+			        <p class="card-text firfon"><span class="text-muted">Since: </span>December, 2017</p>
+			        <!-- <a href="#" class="btn btn-primary">More</a> -->
 			      </div>
 			    </div>
 			</div>
 			<div class="col-lg-6">
 			    <div class="company card">
 			      <div class="card-body">
-			        <h5 class="card-title">HiPower Support Center</h5>
-			        <p class="card-text">Designation: Tech Support Executive</p>
-			        <p class="card-text">Role: Troubleshoot mobile game's network connectivitiy issues and assist players with gameplay</p>
-			        <p class="card-text">Duration: September, 2016 - November, 2017</p>
-			        <a href="#" class="btn btn-primary">More</a>
+			        <h4 class="card-title head">HiPower Support Center</h4>
+			        <p class="card-text firfon"><span class="text-muted">Designation: </span>Tech Support Executive</p>
+			        <p class="card-text firfon"><span class="text-muted">Role: </span>Troubleshoot mobile game's network connectivitiy issues and assist players with gameplay</p>
+			        <p class="card-text firfon"><span class="text-muted">Duration: </span>September, 2016 - November, 2017</p>
+			        <!-- <a href="#" class="btn btn-primary">More</a> -->
 			      </div>
 			    </div>
+			</div>
+		</div>
+	</div>
+	<div class="second container-fluid" id="">
+		<div class="row">
+			<div class="col-12">
+				<div class="additionwrap">
+					<h3 class="text-muted"><small>Also,</small></h3>
+					<br>
+					<h3 class=""><small class="additional mutetext text-muted">I love to play </small><span class="firfon">video games </span><small class="additional mutetext text-muted">and </small><span class="firfon">write articles </span><small class="additional mutetext text-muted">in my free time.</small></h3>
+					<br>
+					<h3 class=""><small class="additional mutetext text-muted">I am a </small><span class="firfon">curious </span><small class="additional mutetext text-muted">person and am digging up on integrating </small><span class="firfon">analytics </span><small class="additional mutetext text-muted">and </small><span class="firfon">prediction </span><small class="additional mutetext text-muted">in websites.</small></h3>
+					<br>
+					<h3 class=""><span class="secfon">Beer </span><small class="additional mutetext text-muted">and </small><span class="secfon">Pizza</span><small class="additional mutetext text-muted">, best combo ever!</small></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="container" id="contact">
+		<div class="thirdrow row">
+			<div class="col-12">
+				<h3 class="additionwrap"><small class="additionwrap text-muted">I am up for </small><span class="firfon">Freelancing </span><small class="additional mutetext text-muted">as well.</small></h3>
+				<h3 class="additionwrap"><small class="additionwrap text-muted">Let's discuss </small><span class="firfon">work </span><small class="additional mutetext text-muted">over </small></h3>
+				<h3 class="additionwrap"><a href="mailto:rahulpal.dav@gmail.com" class="firfon">mail </a><small class="additional mutetext text-muted">or </small><a href="https://www.linkedin.com/in/rahul-kumar-pal-8b8762126/" class="firfon" target="_blank">linkedin</a><small class="additional mutetext text-muted">.</small></h3>
+				<p class="additionwrap"><a href="https://github.com/vicky724" target="_blank" class="text-muted">Github</a> . <a href="https://www.quora.com/profile/Rahul-Pal-477" target="_blank" class="text-muted">Quora</a> . <a href="https://twitter.com/rahulpal_UPwale" target="_blank" class="text-muted">Twitter</a></p>
 			</div>
 		</div>
 	</div>
