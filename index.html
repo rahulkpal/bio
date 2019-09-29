@@ -7,12 +7,16 @@
 
     <link href="https://fonts.googleapis.com/css?family=Bad+Script|Montserrat+Alternates|Questrial" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 	<style type="text/css">
+
+	/*html {
+		scroll-behavior: smooth;
+	}*/
 
 /*background color*/
 	.main {
@@ -31,18 +35,25 @@
 		/*padding-top: 4%;*/
 	}
 
-	/*intermediate*/
+/*intermediate*/
 
 	.intermediate {
 		margin-top: 2%;
+		margin-bottom: 2%;
 	}
 
 	.additionwrap {
 		text-align: center;
 		padding-top: 1%;
+		padding-bottom: 1%;
 	}
 
-	/*second row*/
+	.extraSpace {
+		padding-top: 2%;
+		padding-bottom: 2%;
+	}
+
+/*second row*/
 
 	.secondrow {
 		padding-top: 1%;
@@ -52,9 +63,10 @@
 	.second {
 		background-color: white;
 		margin-top: 2%;
+		margin-bottom: 2%;
 		box-shadow: 0px 0px 10px 2px #b2bec3;
-		padding-top: 1%;
-		padding-bottom: 1%;
+		padding-top: 2%;
+		padding-bottom: 2%;
 	}
 
 /*main content in first row*/
@@ -114,7 +126,7 @@
 	.third {
 		margin-top: 2%;
 		margin-bottom: 2%;
-		padding-bottom: 1%;
+		padding-bottom: 2%;
 	}
 
 	.thirdrow {
@@ -128,9 +140,9 @@
 		font-size: 20px;
 	}
 
-	.company:hover {
+	/*.company:hover {
 		box-shadow: 0px 0px 10px 1px #b2bec3;
-	}
+	}*/
 
 	.head {
 		color: #0984e3;
@@ -147,6 +159,32 @@
 
 	li {
 		font-family: 'Montserrat Alternates', sans-serif;
+	}
+
+	.fixed-me{
+	    transition: all 0.5s ;
+	}
+
+	.fixed-me{
+	    background-color:rgb(255,255,255,0.96) !important;
+	    /*padding: 0px  !important;*/
+	    /*margin-left: auto !important;*/
+	    /*margin-bottom: 50px;*/
+	    position: fixed;
+	    top:0;
+		z-index:888;
+	    width: 100%;
+	    /*border-bottom: 3px solid #ccc !important;	    */
+	    box-shadow: 0 0 10px 2px #b2bec3;
+	}
+
+	.navbar-me {	    
+	   transition: all 0.5s ;
+	   width: 100%;
+	}
+
+	.seen {
+		display: none;
 	}
 
 	@media screen and (max-width: 991px) {
@@ -179,30 +217,35 @@
   </head>
 
   <body class="main">
-  	<div class="container">
+  	<div class="container-fluid">
   		<div class="row">
-		<nav class="navbar navbar-expand-lg navbar-light ml-auto">
+		<nav class="navbar navbar-expand-lg navbar-light navbar-me">
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav mr-auto">
+		  	<ul class="navbar-nav mr-auto">
+		  		<li class="links nav-item">
+		  			<a href="#top" id="navName" class="seen nav-link">Rahul Kumar Pal</a>
+		  		</li>
+		  	</ul>
+		    <ul class="navbar-nav ml-auto">
 		      <li class="links nav-item">
-		        <a class="nav-link" href="#projects">projects</a>
+		        <a class="nav-link" href="#projects" id="probutton">projects</a>
 		      </li>
 		      <li class="links nav-item">
-		        <a class="nav-link" href="#experience">experience</a>
+		        <a class="nav-link" href="#experience" id="expbutton">experience</a>
 		      </li>
 		      <li class="links nav-item">
-		        <a class="nav-link" href="#contact">contact</a>
+		        <a class="nav-link" href="#contact" id="conbutton">contact</a>
 		      </li>
 		    </ul>
 		  </div>
 		</nav>
 		</div>
 	</div>
-	<div class="container-fluid">
+	<div id="top" class="container-fluid">
 		<div class="first row">
 			<div class="col-lg-7">
 				<div class="big-content">
@@ -228,7 +271,7 @@
 		</div>
 		<br>
 		<h3 class="additionwrap text-muted"><small>I use</small></h3>
-		<div class="row">
+		<div class="row extraSpace">
 			<div class="col-lg-4 col-md-6">
 				<ul class="list-group">
 				  <li class="list-group-item d-flex justify-content-between align-items-center" style="border: none; background-color: #E0EBE8;">
@@ -362,7 +405,6 @@
 				</ul>
 			</div>
 		</div>
-		<br>
 	</div>
 	<div class="second container-fluid" id="projects">
 		<h3 class="additionwrap text-muted"><small>My work</small></h3>
@@ -429,16 +471,35 @@
 			</div>
 		</div>
 	</div>
-	<br>
 	<div class="container" id="contact">
 		<div class="thirdrow row">
 			<div class="col-12">
 				<h3 class="additionwrap"><small class="additionwrap text-muted">I am up for </small><span class="firfon">Freelancing </span><small class="additional mutetext text-muted">as well.</small></h3>
-				<h3 class="additionwrap"><small class="additionwrap text-muted">Let's discuss </small><span class="firfon">work </span><small class="additional mutetext text-muted">over </small></h3>
-				<h3 class="additionwrap"><a href="mailto:rahulpal.dav@gmail.com" class="firfon">mail </a><small class="additional mutetext text-muted">or </small><a href="https://www.linkedin.com/in/rahul-kumar-pal-8b8762126/" class="firfon" target="_blank">linkedin</a><small class="additional mutetext text-muted">.</small></h3>
+				<h3 class="additionwrap"><small class="additionwrap text-muted">Let's discuss </small><span class="firfon">work </span><small class="additional mutetext text-muted">over </small><a href="mailto:rahulpal.dav@gmail.com" class="firfon">mail </a><small class="additional mutetext text-muted">or </small><a href="https://www.linkedin.com/in/rahul-kumar-pal-8b8762126/" class="firfon" target="_blank">linkedin</a><small class="additional mutetext text-muted">.</small></h3>
 				<p class="additionwrap"><a href="https://github.com/vicky724" target="_blank" class="text-muted">Github</a> . <a href="https://www.quora.com/profile/Rahul-Pal-477" target="_blank" class="text-muted">Quora</a> . <a href="https://twitter.com/rahulpal_UPwale" target="_blank" class="text-muted">Twitter</a></p>
 			</div>
 		</div>
 	</div>
   </body>
+  <script type="text/javascript">
+
+  	$("#probutton, #expbutton, #conbutton").on('click', function(e) {
+  	     e.preventDefault();
+  	     var target = $(this).attr('href');
+  	     console.log(target);
+  	     $('html, body').animate({
+  	       scrollTop: ($(target).offset().top - 110)
+  	     }, 300);
+	  });
+
+  	$(window).scroll(function() {
+  	    if($(this).scrollTop()>150) {
+  	        $( ".navbar-me" ).addClass("fixed-me");
+  	        $('#navName').removeClass('seen');
+  	    } else {
+  	        $( ".navbar-me" ).removeClass("fixed-me");
+  	        $('#navName').addClass('seen');
+  	    }
+  	});
+  </script>
 </html>
