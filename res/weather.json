@@ -1,0 +1,8 @@
+{
+  "replaces": [
+    {
+      "what": "[data-popup-id='detailsPopup'] .popup__content",
+      "data": "<div class='popup__content'><div class='popup__title'><h4>Weather webApp</h4></div><div class='popup__body'><p>A fun project to fetch the live weather details of the location entered using two APIs: <b>LocationIQ</b> for longitude and latitude and <b>Dark Sky</b> to fetch the live weather of the location.</p><p>This <b>nodeJS</b> powered website is hosted on <b>Heroku</b> and accepts current location input either through <b>HTML Geolocation API</b> or by textual input.</p><p>Visit: <a href='https://obscure-anchorage-51831.herokuapp.com/' target='_blank'>Weather webApp</a></p></div></div>"
+    }
+  ]
+}

@@ -2,8 +2,16 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="bio, resume, portfolio, template">
+    <meta name="description" content="This is the snapshot of the achievements, skills, work experiences. You can think of it as a resume.">
+    <meta name="author" content="Rahul Pal">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <link href="res/vintage-popup.min.css" rel="stylesheet">
+    <link href="res/popup-material-theme.min.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Bad+Script|Montserrat+Alternates|Questrial" rel="stylesheet">
 
@@ -80,6 +88,10 @@
 		font-family: 'Questrial', sans-serif;
 	}
 
+	.descriptionfon {
+		font-family: 'Questrial', sans-serif;
+	}
+
 	.secfon {
 		font-family: 'Bad Script', cursive;
 	}
@@ -120,6 +132,64 @@
 		text-align: center;
 		color: #0984e3;
 	}
+
+/*button*/
+
+	.buttonShadowRead {
+		outline: none;
+		border: none;
+		cursor: pointer;
+		position: relative;
+		width: 150px;
+		border-radius: 3px;
+		background-color: rgb(221, 221, 221, 0.7);
+		/*margin: 0 auto;*/
+		font-family: 'Questrial', sans-serif;
+		box-shadow: 0 4px rgb(221, 221, 221);
+	}
+
+	.buttonShadowRead:hover {
+		box-shadow: 0 2px rgb(221, 221, 221);
+		top: 2px;
+	}
+
+	.buttonShadowRead:focus {
+		outline: none;
+		border: none;
+	}
+
+	.buttonShadowRead:active {
+		box-shadow: 0 0 rgb(221, 221, 221);
+		top: 4px;
+	}
+
+	.buttonShadowWeb {
+		outline: none;
+		border: none;
+		cursor: pointer;
+		position: relative;
+		width: 150px;
+		background-color: rgb(255,255,255);
+		border: 1px solid rgb(0, 123, 255);
+		border-radius: 3px;
+		/*margin: 0 auto;*/
+		font-family: 'Questrial', sans-serif;
+		/*box-shadow: 0 4px rgb(0, 123, 255, 0.7);*/
+	}
+
+/*	.buttonShadowWeb:hover {
+		box-shadow: 0 2px rgb(0, 123, 255, 0.7);
+		top: 2px;
+	}*/
+
+	.buttonShadowWeb:focus {
+		outline: none;
+	}
+
+/*	.buttonShadowWeb:active {
+		box-shadow: 0 0 rgb(0, 123, 255, 0.7);
+		top: 4px;
+	}*/
 
 /*third row*/
 
@@ -208,6 +278,32 @@
 	  	margin-bottom: 2%;
 	  }
 
+	  .firfon {
+	  	font-family: 'Questrial', sans-serif;
+	  	font-size: 42px;
+	  }
+	}
+
+	@media screen and (max-width: 640px) {
+		.firfon {
+			font-family: 'Questrial', sans-serif;
+			font-size: 35px;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		.firfon {
+			font-family: 'Questrial', sans-serif;
+			font-size: 28px;
+		}
+
+/*		.readMore {
+			padding-left: 0px;!important
+		}
+
+		.webLink {
+			padding-right: 0px;!important
+		}*/
 	}
 
 	</style>
@@ -220,16 +316,17 @@
   	<div class="container-fluid">
   		<div class="row">
 		<nav class="navbar navbar-expand-lg navbar-light navbar-me">
+		  <a class="navbar-brand seen" href="#top" id="navName">Rahul Kumar Pal</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		  	<ul class="navbar-nav mr-auto">
+<!-- 		  	<ul class="navbar-nav mr-auto">
 		  		<li class="links nav-item">
 		  			<a href="#top" id="navName" class="seen nav-link">Rahul Kumar Pal</a>
 		  		</li>
-		  	</ul>
+		  	</ul> -->
 		    <ul class="navbar-nav ml-auto">
 		      <li class="links nav-item">
 		        <a class="nav-link" href="#projects" id="probutton">projects</a>
@@ -264,7 +361,7 @@
 				<hr>
 				<div class="additionwrap">
 					<h3 class=""><small class="additional mutetext text-muted">I create</small></h3>
-					<h3 class=""><span class="firfon">attractive </span><small class="additional mutetext text-muted">, </small><span class="firfon">dynamic </span><small class="additional mutetext text-muted">and </small><span class="firfon">scalable </span><small class="additional mutetext text-muted">websites</small></h3>
+					<h3 class=""><span class="descriptionfon">attractive </span><small class="additional mutetext text-muted">, </small><span class="descriptionfon">dynamic </span><small class="additional mutetext text-muted">and </small><span class="descriptionfon">scalable </span><small class="additional mutetext text-muted">websites</small></h3>
 					<h3 class=""><small class="additional mutetext text-muted">using </small><span class="secfon">LAMP </span><small class="additional mutetext text-muted">and </small><span class="secfon">MERN </span><small class="additional mutetext text-muted">stack.</small></h3>
 				</div>
 			</div>
@@ -272,10 +369,10 @@
 		<br>
 		<h3 class="additionwrap text-muted"><small>I use</small></h3>
 		<div class="row extraSpace">
-			<div class="col-lg-4 col-md-6">
+			<div class="col-lg-4 col-md-6 col-sm-12">
 				<ul class="list-group">
 				  <li class="list-group-item d-flex justify-content-between align-items-center" style="border: none; background-color: #E0EBE8;">
-				    HTML
+				    HTML & CSS
 				    <span class="badge badge-pill">
 					    <i class="starfill fas fa-star"></i>
 					    <i class="starfill fas fa-star"></i>
@@ -285,15 +382,19 @@
 					</span>
 				  </li>
 				  <li class="list-group-item d-flex justify-content-between align-items-center" style="border: none; background-color: #E0EBE8;">
-				    CSS
+				    React
 				    <span class="badge badge-pill">
 					    <i class="starfill fas fa-star"></i>
 					    <i class="starfill fas fa-star"></i>
 					    <i class="starfill fas fa-star"></i>
-					    <i class="starfill fas fa-star"></i>
+					    <i class="far fa-star"></i>
 					    <i class="far fa-star"></i>
 					</span>
 				  </li>
+				</ul>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<ul class="list-group">
 				  <li class="list-group-item d-flex justify-content-between align-items-center" style="border: none; background-color: #E0EBE8;">
 				    JavaScript
 				    <span class="badge badge-pill">
@@ -338,6 +439,10 @@
 					    <i class="far fa-star"></i>
 					</span>
 				  </li>
+				  </ul>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<ul class="list-group">
 				  <li class="list-group-item d-flex justify-content-between align-items-center" style="border: none; background-color: #E0EBE8;">
 				    MongoDB
 				    <span class="badge badge-pill">
@@ -363,7 +468,7 @@
 			<div class="col-lg-4 col-md-6">
 				<ul class="list-group">
 				  <li class="list-group-item d-flex justify-content-between align-items-center" style="border: none; background-color: #E0EBE8;">
-				    Chrome Developer Tools
+				    Chrome DevTools
 				    <span class="badge badge-pill">
 					    <i class="starfill fas fa-star"></i>
 					    <i class="starfill fas fa-star"></i>
@@ -382,6 +487,10 @@
 					    <i class="far fa-star"></i>
 					</span>
 				  </li>
+				  </ul>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<ul class="list-group">
 				  <li class="list-group-item d-flex justify-content-between align-items-center" style="border: none; background-color: #E0EBE8;">
 				    Git
 				    <span class="badge badge-pill">
@@ -393,7 +502,7 @@
 					</span>
 				  </li>
 				  <li class="list-group-item d-flex justify-content-between align-items-center" style="border: none; background-color: #E0EBE8;">
-				    Linux command line
+				    Linux CLI
 				    <span class="badge badge-pill">
 					    <i class="starfill fas fa-star"></i>
 					    <i class="starfill fas fa-star"></i>
@@ -407,53 +516,109 @@
 		</div>
 	</div>
 	<div class="second container-fluid" id="projects">
-		<h3 class="additionwrap text-muted"><small>My work</small></h3>
+		<h3 class="text-muted text-center"><small>My work</small></h3>
 		<div class="secondrow row">
-			<div class="icon col-lg-4" onmouseover="this.style.cursor = 'pointer';" onclick="window.open(
-  'https://obscure-anchorage-51831.herokuapp.com/','_blank');">
-				<i class="fas fa-cloud-moon-rain fa-3x"></i>
-				<h6 class="projectcon">Weather web app</h6>
-				<small id="" class="projectmini form-text text-muted">Coded in <b>JavaScript</b>, this app uses two API's: <b>LocationIQ</b> and <b>Dark sky</b> co-working to display the <b>live weather</b> of the location given as input.</small>
+			<div class="icon col-xl-4 col-lg-6 col-sm-12 py-2">
+				<div class="container">
+					<div class="row">
+						<i class="fas fa-cloud-moon-rain fa-3x mx-auto"></i>
+					</div>
+					<div class="row">
+						<h6 class="projectcon mx-auto mb-0">Weather webApp</h6>
+					</div>
+					<div class="row" style="margin-top: -5px;">
+						<small class="mx-auto my-1 text-muted">Freelance Project</small>
+					</div>
+					<div class="row mb-2">
+						<small class="mx-auto my-1 text-muted">Fetches the weather details of the location provided using location and weather <b>API</b>.</small>						
+					</div>
+					<div class="row">
+						<div class="col-xl-1 col-lg-2 col-sm-0 col-md-3"></div>
+						<div class="col-xl-5 col-lg-4 col-sm-6 col-md-3 readMore my-1">
+							<button class="buttonShadowRead px-2 py-1 trigger" data-popup-target="detailsPopup" data-popup-remote="./res/weather.json" id="">Read more</button>
+						</div>
+						<div class="col-xl-5 col-lg-4 col-sm-6 col-md-3 webLink my-1"><button class="buttonShadowWeb px-2 py-1" onclick="window.open('https://obscure-anchorage-51831.herokuapp.com/');">Website &nbsp;<span id="webLink"><i class="fas fa-external-link-alt"></i></span></button></div>
+						<div class="col-xl-1 col-lg-2 col-sm-0 col-md-3"></div>
+					</div>
+				</div>
 			</div>
-			<div class="icon col-lg-4" onmouseover="this.style.cursor = 'pointer';" onclick="window.open(
-  'wip.html','_blank');">
-				<i class="fas fa-book fa-3x"></i>
-				<h6 class="projectcon">Knowledge Management System</h6>
-				<small id="" class="projectmini form-text text-muted">Also known as Knowledge Base, this was developed with <b>LAMP</b> stack to handle the content of <b>Operations</b> process of an organisation along with features like regular <b>process updates</b>, quizes integrated with updates, <b>FAQs</b>, <b>search option</b>, <b>notifications</b>, supervisors with content moderation privilages.</small>
+			<div class="icon col-xl-4 col-lg-6 col-sm-12 py-2">
+				<div class="container">
+	  				<div class="row">
+	  					<i class="fas fa-book fa-3x mx-auto"></i>
+	  				</div>
+	  				<div class="row">
+	  					<h6 class="projectcon mx-auto mb-0">Knowledge Management System</h6>
+	  				</div>
+	  				<div class="row" style="margin-top: -5px;">
+	  					<small class="mx-auto my-1 text-muted">Swiggy (Bundl Technologies Pvt. Ltd.)</small>
+	  				</div>
+	  				<div class="row mb-2">
+						<small class="mx-auto my-1 text-muted">KMS project for Swiggy with features like <b>search</b>, <b>notifications</b>, <b>quiz</b>, <b>reports</b>, <b>user management</b> and many more!</small>
+					</div>
+	  				<div class="row">
+	  					<div class="col-xl-1 col-lg-2 col-sm-0 col-md-3"></div>
+	  					<div class="col-xl-5 col-lg-4 col-sm-6 col-md-3 readMore my-1">
+	  						<button class="buttonShadowRead px-2 py-1 trigger" data-popup-target="detailsPopup" data-popup-remote="./res/kms.json" id="">Read more</button>
+	  					</div>
+	  					<div class="col-xl-5 col-lg-4 col-sm-6 col-md-3 webLink my-1"><button class="buttonShadowWeb px-2 py-1" onclick="window.open('wip.html');">Website &nbsp;<span id="webLink"><i class="fas fa-external-link-alt"></i></span></button></div>
+	  					<div class="col-xl-1 col-lg-2 col-sm-0 col-md-3"></div>
+	  				</div>
+	  			</div>
 			</div>
-			<div class="icon col-lg-4" onmouseover="this.style.cursor = 'pointer';" onclick="window.open(
-  'https://vicky724.github.io/dice-roll/','_blank');">
-				<i class="fas fa-dice-five fa-3x"></i>
-				<h6 class="projectcon">Dice game</h6>
-				<small id="" class="projectmini form-text text-muted"><b>JavaScript</b> forms the base of this for a fun 1v1 dice rolling game on the same device.</small>
+			<div class="icon col-xl-4 col-lg-6 col-sm-12 py-2">
+				<div class="container">
+					<div class="row">
+						<i class="fas fa-dice-four fa-3x mx-auto"></i>
+					</div>
+					<div class="row">
+						<h6 class="projectcon mx-auto mb-0">Dice game</h6>
+					</div>
+					<div class="row" style="margin-top: -5px;">
+						<small class="mx-auto my-1 text-muted">Freelance Project</small>
+					</div>
+					<div class="row mb-2">
+						<small class="mx-auto my-1 text-muted">Roll the dice to accumulate score, hold on to it untill you reach 50. If you roll a 1, the dice gets passed on.</small>						
+					</div>
+					<div class="row">
+						<div class="col-xl-1 col-lg-2 col-sm-0 col-md-3"></div>
+						<div class="col-xl-5 col-lg-4 col-sm-6 col-md-3 readMore my-1">
+							<button class="buttonShadowRead px-2 py-1 trigger" data-popup-target="detailsPopup" data-popup-remote="./res/dice.json" id="">Read more</button>
+						</div>
+						<div class="col-xl-5 col-lg-4 col-sm-6 col-md-3 webLink my-1"><button class="buttonShadowWeb px-2 py-1" onclick="window.open('https://vicky724.github.io/dice-roll/');">Website &nbsp;<span id="webLink"><i class="fas fa-external-link-alt"></i></span></button></div>
+						<div class="col-xl-1 col-lg-2 col-sm-0 col-md-3"></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 	<div class="third container" id="experience">
-		<h3 class="additionwrap text-muted"><small>I have worked with</small></h3>
+		<h3 class="additionwrap text-muted"><small>I am working with</small></h3>
 		<div class="thirdrow row">
-			<div class="col-lg-6">
+			<div class="col-lg-3"></div>
+			<div class="col">
 			    <div class="company card">
 			      <div class="card-body">
-			        <h4 class="card-title head">Swiggy</h4>
-			        <p class="card-text firfon"><span class="text-muted">Designation: </span>Senior Executive ORM</p>
-			        <p class="card-text firfon"><span class="text-muted">Role: </span>Joined as executive but moved to inhouse web-development, deployment, testing and maintenance for Operations team</p>
-			        <p class="card-text firfon"><span class="text-muted">Since: </span>December, 2017</p>
+			      	<p>
+				        <span class="card-title head h4">Swiggy</span>&nbsp;<span class="text-muted">(Bundl Technologies Pvt. Ltd.)</span>
+				    </p>
+			        <p class="card-text descriptionfon">
+			        	<span class="text-muted">Designation: </span>
+				        Senior Executive ORM
+				    </p>
+			        <p class="card-text descriptionfon">
+			        	<span class="text-muted">Role: </span>
+				        Joined as executive but moved to inhouse web-development, deployment, testing and maintenance for Operations team
+				    </p>
+			        <p class="card-text descriptionfon">
+			        	<span class="text-muted">Since: </span>
+				        December, 2017
+				    </p>
 			        <!-- <a href="#" class="btn btn-primary">More</a> -->
 			      </div>
 			    </div>
 			</div>
-			<div class="col-lg-6">
-			    <div class="company card">
-			      <div class="card-body">
-			        <h4 class="card-title head">HiPower Support Center</h4>
-			        <p class="card-text firfon"><span class="text-muted">Designation: </span>Tech Support Executive</p>
-			        <p class="card-text firfon"><span class="text-muted">Role: </span>Troubleshoot mobile game's network connectivitiy issues and assist players with gameplay</p>
-			        <p class="card-text firfon"><span class="text-muted">Duration: </span>September, 2016 - November, 2017</p>
-			        <!-- <a href="#" class="btn btn-primary">More</a> -->
-			      </div>
-			    </div>
-			</div>
+			<div class="col-lg-3"></div>
 		</div>
 	</div>
 	<div class="second container-fluid" id="">
@@ -462,9 +627,9 @@
 				<div class="additionwrap">
 					<h3 class="text-muted"><small>Also,</small></h3>
 					<br>
-					<h3 class=""><small class="additional mutetext text-muted">I love to play </small><span class="firfon">video games </span><small class="additional mutetext text-muted">and </small><span class="firfon">write articles </span><small class="additional mutetext text-muted">in my free time.</small></h3>
+					<h3 class=""><small class="additional mutetext text-muted">I love to play </small><span class="descriptionfon">video games </span><small class="additional mutetext text-muted">and </small><span class="descriptionfon">write articles </span><small class="additional mutetext text-muted">in my free time.</small></h3>
 					<br>
-					<h3 class=""><small class="additional mutetext text-muted">I am a </small><span class="firfon">curious </span><small class="additional mutetext text-muted">person and am digging up on integrating </small><span class="firfon">analytics </span><small class="additional mutetext text-muted">and </small><span class="firfon">prediction </span><small class="additional mutetext text-muted">in websites.</small></h3>
+					<h3 class=""><small class="additional mutetext text-muted">I am a </small><span class="descriptionfon">curious </span><small class="additional mutetext text-muted">person and am digging up on integrating </small><span class="descriptionfon">analytics </span><small class="additional mutetext text-muted">and </small><span class="descriptionfon">prediction </span><small class="additional mutetext text-muted">in websites.</small></h3>
 					<br>
 					<h3 class=""><span class="secfon">Beer </span><small class="additional mutetext text-muted">and </small><span class="secfon">Pizza</span><small class="additional mutetext text-muted">, best combo ever!</small></h3>
 				</div>
@@ -474,32 +639,19 @@
 	<div class="container" id="contact">
 		<div class="thirdrow row">
 			<div class="col-12">
-				<h3 class="additionwrap"><small class="additionwrap text-muted">I am up for </small><span class="firfon">Freelancing </span><small class="additional mutetext text-muted">as well.</small></h3>
-				<h3 class="additionwrap"><small class="additionwrap text-muted">Let's discuss </small><span class="firfon">work </span><small class="additional mutetext text-muted">over </small><a href="mailto:rahulpal.dav@gmail.com" class="firfon">mail </a><small class="additional mutetext text-muted">or </small><a href="https://www.linkedin.com/in/rahul-kumar-pal-8b8762126/" class="firfon" target="_blank">linkedin</a><small class="additional mutetext text-muted">.</small></h3>
+				<h3 class="additionwrap"><small class="additionwrap text-muted">I am up for </small><span class="descriptionfon">Freelancing </span><small class="additional mutetext text-muted">as well.</small></h3>
+				<h3 class="additionwrap"><small class="additionwrap text-muted">Let's discuss </small><span class="descriptionfon">work </span><small class="additional mutetext text-muted">over </small><a href="mailto:rahulpal.dav@gmail.com" class="descriptionfon">mail</a><small class="additional mutetext text-muted"> or </small><a href="https://www.linkedin.com/in/rahul-kumar-pal-8b8762126/" class="descriptionfon" target="_blank">linkedin</a><small class="additional mutetext text-muted">.</small></h3>
 				<p class="additionwrap"><a href="https://github.com/vicky724" target="_blank" class="text-muted">Github</a> . <a href="https://www.quora.com/profile/Rahul-Pal-477" target="_blank" class="text-muted">Quora</a> . <a href="https://twitter.com/rahulpal_UPwale" target="_blank" class="text-muted">Twitter</a></p>
 			</div>
 		</div>
 	</div>
+	<div class="popup" tabindex="-1" role="dialog" data-popup-id="detailsPopup">
+	  <div class="popup__container">
+	      <div class="popup__close"><span></span><span></span></div>
+	      <div class="popup__content"></div>
+	  </div>
+	</div>
   </body>
-  <script type="text/javascript">
-
-  	$("#probutton, #expbutton, #conbutton").on('click', function(e) {
-  	     e.preventDefault();
-  	     var target = $(this).attr('href');
-  	     console.log(target);
-  	     $('html, body').animate({
-  	       scrollTop: ($(target).offset().top - 110)
-  	     }, 300);
-	  });
-
-  	$(window).scroll(function() {
-  	    if($(this).scrollTop()>150) {
-  	        $( ".navbar-me" ).addClass("fixed-me");
-  	        $('#navName').removeClass('seen');
-  	    } else {
-  	        $( ".navbar-me" ).removeClass("fixed-me");
-  	        $('#navName').addClass('seen');
-  	    }
-  	});
-  </script>
+  <script src="res/vintage-popup.min.js"></script>
+  <script type="text/javascript" src="res/bio.js"></script>
 </html>

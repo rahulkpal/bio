@@ -1,0 +1,8 @@
+{
+  "replaces": [
+    {
+      "what": "[data-popup-id='detailsPopup'] .popup__content",
+      "data": "<div class='popup__content'><div class='popup__title'><h4>Knowledge Management System</h4></div><div class='popup__body'><p>KMS project is made during my time in <b>Swiggy</b> and serves as a repository of all the procedures and updates needed for smooth functioning of the Operations department.</p><p>The application runs on <b>LAMP</b> stack, uses <b>AJAX</b> for dynamic properties and <b>Bootstrap</b> is for the frontend design.</p><p>Key features include:</p><ul> <li>Search content</li><ul> <li>By text</li><li>By date</li><li>By custom tags</li></ul> <li>Notifications on new content update</li><li>Version based content archiving</li><li>Quiz<ul> <li>Linked with Content</li><li>Standalone</li></ul></li><li>Discussion forum</li><li>User registration via internal emailId</li><li>Manage categories for content</li><li>Manage team alignment for users</li><li>Designation-based access for users</li><li>Reports for quiz scores, user access logs</li></ul><em>Note: This is a private project and hence I am working on abstracting the features specific to Swiggy.</em><p>Visit: <a href='wip.html' target='_blank'>KMS website</a></p></div></div>"
+    }
+  ]
+}
