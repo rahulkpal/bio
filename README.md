@@ -1,2 +1,4 @@
 # bio
-This is the snapshot of the achievements, skills, work experiences. You can think of it as a resume.
+This is the list of the achievements, skills, work experiences.
+
+In short, a portfolio.
