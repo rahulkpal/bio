@@ -2,7 +2,7 @@
   "replaces": [
     {
       "what": "[data-popup-id='detailsPopup'] .popup__content",
-      "data": "<div class='popup__content'><div class='popup__title'><h4>Performance Report</h4></div><div class='popup__body'><p>The universal tool to check users' performance on various metrics by the user and their supervisors. Live data is rendered in the form of charts to along with the users' best scores for easy comparision.</p><p>Key features include:</p><ul><li>Leaderboard</li><li>Date based filtering of historic data</li><li>Side by side comparision of historic data based on date filters</li></ul><p>Additional plugins:</p><ul><li>ApexCharts</li><li>Flatpickr</li></ul></div></div>"
+      "data": "<div class='popup__content'><div class='popup__title'><h4>Performance Report</h4></div><div class='popup__body'><p>The universal tool to check users' performance on various metrics by the user and their supervisors. Live data is rendered in the form of charts to along with the users' best scores for easy comparision.</p><p>Key features include:</p><ul><li>Leaderboard</li><li>Date based filtering of historic data</li><li>Side by side comparision of historic data based on date filters</li></ul><p>Additional plugins:</p><ul><li>ApexCharts</li><li>Flatpickr</li><li>DataTables</li></ul></div></div>"
     }
   ]
 }

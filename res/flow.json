@@ -2,7 +2,7 @@
   "replaces": [
     {
       "what": "[data-popup-id='detailsPopup'] .popup__content",
-      "data": "<div class='popup__content'><div class='popup__title'><h4>Visual Flowchart</h4></div><div class='popup__body'><p>A scenario in Operations is usually lined with a lot of steps and each of them might have different options. To simplify this, we worked on a backend driven listing of steps based on the scenarios with the option to go back some steps and continue with another option.</p><p>The application works on parent-child relationship to move up or down the tree.</p><p>Key features include:</p><ul> <li>Logging of each step followed</li><li>Save the state of the current scenario to avoid loss on page reload</li><ul></div></div>"
+      "data": "<div class='popup__content'><div class='popup__title'><h4>Visual Flowchart</h4></div><div class='popup__body'><p>A scenario in Operations is usually linked with a lot of steps and each of them might have different options. To simplify this, we worked on a backend driven listing of steps based on the scenarios with the option to go back some steps and continue with another option.</p><p>The application works on parent-child relationship to move up or down the tree.</p><p>Key features include:</p><ul> <li>Logging of each step followed</li><li>Save the state of the current scenario to avoid loss on page reload</li><ul></div></div>"
     }
   ]
 }
