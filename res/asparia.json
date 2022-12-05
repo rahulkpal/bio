@@ -1,0 +1,8 @@
+{
+  "replaces": [
+    {
+      "what": "[data-popup-id='detailsPopup'] .popup__content",
+      "data": "<div class='popup__content'> <div class='popup__title'> <h4>Asparia</h4> </div><div class='popup__body'> <ul> <li> Worked with a team to build a live chat application for patient engagement by hospitals </li><li> Lead the development of Alerts & Monitoring system for automated workflows </li><li> Worked with technologies like Azure blobstorage & queue services, Redis, 3rd party API integrations using MERN stack </li></ul> </div></div>"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "replaces": [
     {
       "what": "[data-popup-id='detailsPopup'] .popup__content",
-      "data": "<div class='popup__content'><div class='popup__title'><h4>Weather webApp</h4></div><div class='popup__body'><p>A fun project to fetch the live weather details of the location entered using two APIs: <b>LocationIQ</b> for longitude and latitude and <b>Dark Sky</b> to fetch the live weather of the location.</p><p>This <b>nodeJS</b> powered website, rendered using <b>ReactJS</b> and is hosted on <b>Heroku</b>. The input can either be the textual address of the current location or by <b>HTML Geolocation API</b>.</p><p>Visit: <a href='https://liveweatherdetails.herokuapp.com/' target='_blank'>Weather webApp</a></p></div></div>"
+      "data": "<div class='popup__content'><div class='popup__title'><h4>Weather webApp</h4></div><div class='popup__body'><p>A fun project to fetch the live weather details of the location entered using two APIs: <b>LocationIQ</b> for longitude and latitude and <b>Dark Sky</b> to fetch the live weather of the location.</p><p>This <b>nodeJS</b> powered website, rendered using <b>ReactJS</b> and is hosted on <b>Heroku</b>. The input can either be the textual address of the current location or by <b>HTML Geolocation API</b>.</p><p>Free hosted app unavailable on Heroku.</p></div></div>"
     }
   ]
 }

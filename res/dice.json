@@ -2,7 +2,7 @@
   "replaces": [
     {
       "what": "[data-popup-id='detailsPopup'] .popup__content",
-      "data": "<div class='popup__content'><div class='popup__title'><h4>Dice game</h4></div><div class='popup__body'><p>Dice game served as a learning project when I picked up <b>JavaScript</b>.</p><p>This PvP game is all about rolling the dice to collect scores and reach/cross 50. If you roll a 1, you must pass on the dice to your opponent and the accumulated score is lost.</p><p>However, you can decide to hold on to the accumulated score in the game only if you pass on the dice to your opponent.</p></div><p>Play: <a href='https://vicky724.github.io/dice-roll/' target='_blank'>Dice game</a></p></div>"
+      "data": "<div class='popup__content'><div class='popup__title'><h4>Dice game</h4></div><div class='popup__body'><p>Dice game served as a learning project when I picked up <b>JavaScript</b>.</p><p>This PvP game is all about rolling the dice to collect scores and reach/cross 50. If you roll a 1, you must pass on the dice to your opponent and the accumulated score is lost.</p><p>However, you can decide to hold on to the accumulated score in the game only if you pass on the dice to your opponent.</p></div><p>Play: <a href='https://rahulkpal.github.io/dice-roll/' target='_blank'>Dice game</a></p></div>"
     }
   ]
 }

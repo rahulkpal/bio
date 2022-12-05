@@ -1,0 +1,8 @@
+{
+  "replaces": [
+    {
+      "what": "[data-popup-id='detailsPopup'] .popup__content",
+      "data": "<div class='popup__content'> <div class='popup__title'> <h4>Visit Health Pvt. Ltd.</h4> </div><div class='popup__body'> <ul> <li> Wroked on end to end delivery and maintenance of product features along with supervising junior developers </li><li> Encouraged the idea of daily standup meetings and bi-weekly sprints for better transparency and planning deliverables </li><li> Worked on features involving payment gateway integration, Kafka integrations among others </li></ul> </div></div>"
+    }
+  ]
+}
