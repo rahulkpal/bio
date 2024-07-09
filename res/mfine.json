@@ -1,0 +1,8 @@
+{
+  "replaces": [
+    {
+      "what": "[data-popup-id='detailsPopup'] .popup__content",
+      "data": "<div class='popup__content'> <div class='popup__title'> <h4>Mfine</h4> </div><div class='popup__body'> <ul> <li> Own the of feature from technical design documentation to code deployment, release documentation (ISO standard compliant), monitoring & provide support </li><li> Worked on user facing web apps with custom proxy backend server for each web app to improve security </li><li> Worked on video consultation feature between two parties </li><li> Worked with backend micro services changes, maintenance & upgradation </li><li> Worked with Google auth implementation </li><li> Involved in the review of technical design documents & hiring process </li></ul> </div></div>"
+    }
+  ]
+}

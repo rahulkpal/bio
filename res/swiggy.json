@@ -2,7 +2,7 @@
   "replaces": [
     {
       "what": "[data-popup-id='detailsPopup'] .popup__content",
-      "data": "<div class='popup__content'> <div class='popup__title'> <h4>Swiggy</h4> </div><div class='popup__body'> <ul> <li> Built business automations based web applications for Operations department </li><li> Worked on SMS dispatcher, live performance dashboard, knowledge management systems among other features </li><li> Transformed requirement to product, deploy and maintain on ubuntu instances </li><li> Used Linux, Apache, MySQL, PHP as primary stack along with other open source libraries </li></ul> </div></div>"
+      "data": "<div class='popup__content'> <div class='popup__title'> <h4>Swiggy</h4> </div><div class='popup__body'> <ul> <li> Built business automations based web applications for Operations department </li><li> Worked on SAML2 SSO, SMS dispatcher, live performance dashboard, knowledge management systems among other features </li><li> Transformed requirement to product, deploy and maintain on ubuntu instances </li><li> Used Linux, Apache, MySQL, PHP as primary stack along with other open source libraries </li></ul> </div></div>"
     }
   ]
 }
